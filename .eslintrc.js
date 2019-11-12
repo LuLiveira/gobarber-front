@@ -10,7 +10,6 @@ module.exports = {
     SharedArrayBuffer: "readonly",
     __DEV__: true
   },
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -29,7 +28,6 @@ module.exports = {
     "react-native/no-raw-text": "off",
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
-    "import/no-unresolved": "off",
     camelcase: "off",
     "no-console": ["error", { allow: ["tron"] }],
     "react-hooks/rules-of-hooks": "error",
