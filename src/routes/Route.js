@@ -20,7 +20,7 @@ export default function RouteWrapper({
     return <Redirect path="/dashboard" />;
   }
 
-  const Layout = signed ? AuthLayout : DefaultLayout;
+  const Layout = signed ? DefaultLayout : AuthLayout;
 
   return (
     <Route
